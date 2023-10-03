@@ -20,8 +20,7 @@
                         </div>
                         <div class="navbar-center hidden lg:flex">
                             <ul class="menu menu-horizontal px-1">
-                                <li><a href="/">Home</a></li>
-                                <li><a href="/about">About</a></li>
+                                @include('partials.links')
                                 <li tabindex="0">
                                     <details>
                                         <summary>Parent</summary>

@@ -1,5 +1,5 @@
 <!doctype html>
-<html data-theme="dark" lang="en">
+<html data-theme="emerald" lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -9,9 +9,7 @@
     @vite('resources/css/app.css')
 </head>
 <body>
-    @include('nav')
-    @yield('content')
-
+@include('partials.nav')
+@yield('content')
 </body>
 </html>
-

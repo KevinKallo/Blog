@@ -6,12 +6,12 @@ use Illuminate\Http\Request;
 
 class PublicController extends Controller
 {
-    Public function index(){
-        return view('welcome');
+    public function index(){
+        $articles = Article::all();
+        return view('welcome', compact('articles'));
     }
 
-    Public function about(){
+    public function about(){
         return view('about');
     }
-    //
 }
