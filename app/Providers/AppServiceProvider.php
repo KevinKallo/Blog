@@ -2,8 +2,6 @@
 
 namespace App\Providers;
 
-
-use App\Models\Article;
 use Illuminate\Pagination\Paginator;
 use Illuminate\Support\ServiceProvider;
 
@@ -14,7 +12,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-
+        //
     }
 
     /**
